@@ -1,0 +1,34 @@
+{
+  "name": "codeslave",
+  "version": "0.2.0",
+  "description": "Standalone TUI manager for batching template-driven Codex workers.",
+  "author": {
+    "name": "Local Workspace"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codeslave",
+    "codex",
+    "tui",
+    "batch",
+    "orchestrator"
+  ],
+  "interface": {
+    "displayName": "CodeSlave",
+    "shortDescription": "Run and manage multiple Codex workers from a local template.",
+    "longDescription": "CodeSlave is a standalone desktop TUI that copies an internal project template, rewrites Task with the target repository URL, and manages concurrent codex exec workers with flow switching, logs, and retries.",
+    "developerName": "Local Workspace",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Terminal"
+    ],
+    "defaultPrompt": [
+      "Open the CodeSlave TUI.",
+      "Queue several GitHub repositories from the built-in DemoProject template.",
+      "Switch flow definitions and monitor worker progress."
+    ],
+    "brandColor": "#C2410C"
+  }
+}
