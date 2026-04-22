@@ -1,0 +1,6 @@
+interface:
+  display_name: "SCA 报告清洗"
+  short_description: "将大型 SCA 报告归一化为可批处理 finding 清单"
+  default_prompt: "使用 $sca-report-cleaner 清洗这份 SCA JSON，并输出可供逐 CVE 可达性分析的 cleaned-findings.json。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SCA 可达性分析"
+  short_description: "验证 SCA 组件漏洞是否在项目中真实可达"
+  default_prompt: "使用内置 sca-reachability-analysis skill 分析这份 SCA 结果中的漏洞是否在项目代码中可达。"
+policy:
+  allow_implicit_invocation: true
